@@ -37,5 +37,3 @@ My timeline activities
 4. Simulates the model with the positive effect of no-self toxicity. Deadline 19/12/24
 5. Evaluates the AFD and SAD for the model with the positive effect of no-self toxicity 19/12/24
 6. Review experimental work that contains gut microbiota data driven by diet (it is not necessary that are in time but could be nice...) Deadline 12/01/24
-
-
