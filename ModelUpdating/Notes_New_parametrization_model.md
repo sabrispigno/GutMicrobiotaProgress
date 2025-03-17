@@ -1,6 +1,6 @@
  EQUATIONS 
+ 
  $$
-
 \dot{n}_i = n_i\Big[ 1 - \Big(\gamma \delta a_i + (1-\gamma)n_i\Big) - \sum_{j(\neq i)} C_{ij} n_j \Big]+ \lambda
 
 $$
@@ -66,5 +66,7 @@ $$
 \dot{a}_i = n_i - \delta a_i
 $$ 
 In the end there are (beside species richness $S$) four continuous parameters to study: $\mu,\sigma,\delta,\Theta$ where $\Theta$ is now defined as $\theta = \gamma \delta$. Note that in this new parametrization is always $\Theta<\delta$ to avoid negative values of $n_i$
+
 2. Fix $\mu$ and $\sigma$ and change $\theta$ where $\theta$ is the sensibility to the toxicity
+
 3. Bifurcation analysis changing $\theta$. From a fixed point regime, fixing all the other parameters, change just delta and evaluate the state variables local minima and maxima for the mean of the species in a certain time step 
