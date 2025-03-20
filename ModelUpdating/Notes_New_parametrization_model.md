@@ -22,14 +22,20 @@ SPECIES DYNAMICS
 
 ![a title](DeltaGamma/10speciesChaos.png)
 
+
+Now the plot of the same simulation but in Linear scale
+
+![a title](DeltaGamma/10speciesChaosLinear.png)
+
 I have parametrised the new model by using the old parameters, scaling the parameters in the new way (see. Notes Autotoxicity model by Emil). If $\beta=1$ and  $\delta$ = 0.001 (in the past version of the model, as in the past parametrisation), then,  $Cii$ = 100. This means that in the new parametrisation $\mu$ and $\sigma$ are not 0.5 and 0.3 but are divided by $Cii$ resulting in a change of the phase regime from chaotic to fixed points.
 $$ Cij = N \sim 0.005,0.003;\ \gamma=[0.8-1];\ \delta= [0.001-2];\ \lambda= 0 $$
 *Memo for me: it is the folder called "DatFpParNew"*
 
 ![a title](DeltaGamma/10speciesFP.png)
 
+Now the plot of the same simulation but in Linear scale
 
-![a title](DeltaGamma/10speciesFP2.png)
+![a title](DeltaGamma/10speciesFPLinear.png)
 
 SIMULATIONS - Fixing $\gamma$ and $\delta$ and changing $\mu$ and $\sigma$ 
 I fixed $\gamma$ =0.1 and $\delta$ = 0.1 and then I changed $\mu$ and $\sigma$ as the function of the angle $\phi$ 
@@ -42,6 +48,10 @@ $$ Cij = N \sim \mu(\phi),\sigma(\phi)\ ;\ \phi = [0.1-1.6]; \gamma=0.5;\ \delta
 
 ![a title](PhiGamma/10speciesPhiGammaLSODA.png)
 From the top left to the bottom right, phi values decrease. The behaviour of only 10 random species is shown in colour, while the other species are shown in grey. Despite the numerical error, we can see that the species fluctuate faster as the phi value increases.
+
+Now the plot of the same simulation but in Linear scale
+
+![a title](PhiGamma/10speciesPhiGammaLinear.png)
 
 SIMULATIONS - Fix $\mu$ and $\delta$ and $\gamma$ and change $\sigma$. 
 
@@ -68,7 +78,7 @@ In the end there are (beside species richness $S$) four continuous parameters to
 
 2. Fix $\mu$ and $\sigma$ and change $\theta$ where $\theta$ is the sensibility to the toxicity
 
-For the moment I am keeping $\gamma$
+*For the moment I am keeping $\gamma$*
 
 3. Bifurcation analysis
 
