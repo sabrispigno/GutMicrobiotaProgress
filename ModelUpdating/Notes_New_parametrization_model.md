@@ -52,7 +52,7 @@ $$
 Cij = N \sim (\mu ,\sigma) ;\  \mu=0.001;\ \sigma=[0.002-0.013];\ \gamma=[0.01-0.99];\ \delta= 0.01;\ \lambda= 1e-10\  
 $$
 
-![a title](SigmaGamma/10speciesSigmaGammaRK45.png)
+![a title](SigmaGamma/10specieSigmaGammaRK45.png)
 
 *In the simulation upside, I got some problem sorting the data, I will try to figure it out*
 
