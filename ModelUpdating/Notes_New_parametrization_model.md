@@ -84,8 +84,10 @@ In the end there are (beside species richness $S$) four continuous parameters to
 
 I tried a bifurcation analysis changing the parameter $\gamma$  from 0.5 to 0.978
 
-![a title](Bifurcation/BifurcationGamma.png)
-
+![a title](Bifurcation/BifurcationGammaMEAN.png)
+![a title](Bifurcation/BifurcationGammaM1.png)
+![a title](Bifurcation/BifurcationGammaM2.png)
+![a title](Bifurcation/BifurcationGammaM3.png)
 This is an example of the code that I used.
 
     for idx in range(len(ChPar_list)): # a for on the parameter gamma
