@@ -53,6 +53,11 @@ Now the plot of the same simulation but in Linear scale
 
 ![a title](PhiGamma/10speciesPhiGammaLinear.png)
 
+Now I made the same simulation but plotting the species by changing phi in the same graph.
+
+![a title](PhiGamma/10speciesPhiAdiabatic.png)
+
+
 SIMULATIONS - Fix $\mu$ and $\delta$ and $\gamma$ and change $\sigma$. 
 
 We now consider the space $\mu$ and $\sigma$ as in  Ecological communities with Lotka-Volterra dynamics; DOI: https://doi.org/10.1103/PhysRevE.95.042414. In our case mu and sigma are $\hat{\mu} = S \mu$ and $\hat{\sigma} = \sqrt{S} \sigma $
@@ -64,7 +69,11 @@ $$
 
 ![a title](SigmaGamma/10specieSigmaGammaRK45.png)
 
-*In the simulation upside, I got some problem sorting the data, I will try to figure it out*
+Now I plot the same simulation but in Linear scale
+
+![a title](SigmaGamma/10specieSigmaGammaRK45Linear.png)
+
+
 
 
 1. Change the model by using instead of $\gamma$ a parameter called $\theta$ that represents the sensibility to the Toxicity. 
@@ -82,46 +91,76 @@ In the end there are (beside species richness $S$) four continuous parameters to
 
 3. Bifurcation analysis
 
-I tried a bifurcation analysis changing the parameter $\gamma$  from 0.5 to 0.978
+I tried a bifurcation analysis changing the parameter $\gamma$  from 0.8 to 0.978
+#### Plotting the mean of all the species
 
-![a title](Bifurcation/BifurcationGamma.png)
+![a title](Bifurcation/BifurcationGammaMEAN.png)
+
+#### Plotting the most abundant species
+
+![a title](Bifurcation/BifurcationGammaM1.png)
+
+#### Plotting the second most abundant species
+
+![a title](Bifurcation/BifurcationGammaMAX2.png)
+
+#### Plotting the third most abundant species
+
+![a title](Bifurcation/BifurcationGammaMAX3.png)
 
 This is an example of the code that I used.
 
-    for idx in range(len(ChPar_list)): # a for on the parameter gamma
-        # Executing the simulation for all the parameters idx
-        m.gam = ChPar_list[idx]
+    for idx in range(len(ChPar_list)):
+    # Executing the simulation for all the parameters idx
+    m.gam = ChPar_list[idx]
 
-        m.B = ab.gaussian_interactions(m.S, m.mu, m.sigma, diag=0, rng=rng) # interaction matrix
+    m.B = ab.gaussian_interactions(m.S, m.mu, m.sigma, diag=0, rng=rng) # interaction matrix
 
-        # initial condition f_logAuto
-        # on the first cycle i put the initial condition. Then I will use the last state variable condition as the first condition for the next parameter: maybe is not necessary because it is implicit in the model class?
-        if idx == 0:
-            logn1 = np.log(1 / m.S)
-            m.s = np.zeros(2 * m.S)
-            m.s[:m.S] = logn1 
-            m.s[m.S:] = np.ones(m.S)/m.S  
+    # initial condition f_logAuto
+     # Se è il primo ciclo, imposta la condizione iniziale
+    if idx == 0:
+        logn1 = np.log(1 / m.S)
+        m.s = np.zeros(2 * m.S)
+        m.s[:m.S] = logn1 
+        m.s[m.S:] = np.ones(m.S)/m.S  # Autotossicità iniziale
 
 
-        trans_long= 10000 # transient time
+    trans_long= 10000 # transient time
 
-        m.run(trans_long, method=meth) # run long transient
-        trans_short= 400
-        #while (m.theta<m.de):
-        t, st = m.run(trans_short,1,method=meth)
-        nt = np.exp(st[:m.S,:]) # rexponentiate because of log the abundances
-        at = st[m.S:,:] #the autotoxicity
-        ntmean= np.mean(nt,axis=0)
-        N=trans_short
+    m.run(trans_long, method=meth) # run long transient
+    trans_short= 400
+    #while (m.theta<m.de):
+    t, st = m.run(trans_short,1,method=meth)
+    nt = np.exp(st[:m.S,:]) # rexponentiate because of log the abundances
+    at = st[m.S:,:] #the autotoxicity
+    ntmeanR= np.mean(nt,axis=0)
+    ntsort=np.sort(nt, axis=0)
+    max1R=ntsort[-1,:]
+    max2R=ntsort[-2,:]
+    max3R=ntsort[-3,:]  
+    ntmean=ab.moving_average(ntmeanR,n=3)
+    max1=ab.moving_average(max1R,n=3)
+    max2=ab.moving_average(max2R,n=3)
+    max3=ab.moving_average(max3R,n=3)
+    N=len(ntmean)
+    MinMaxnmean= ab.findLocalMaximaMinima(n=N,arr=ntmean)
+    max_nmean= ntmean[MinMaxnmean[0]]
+    min_nmean= ntmean[MinMaxnmean[1]]
+    NM1=len(max1)
+    MinMaxM1= ab.findLocalMaximaMinima(n=NM1,arr=max1)
+    max_M1= ntmean[MinMaxM1[0]]
+    min_M1= ntmean[MinMaxM1[1]]
+    NM2=len(max2)
+    MinMaxM2= ab.findLocalMaximaMinima(n=NM2,arr=max2)
+    max_M2= ntmean[MinMaxM2[0]]
+    min_M2= ntmean[MinMaxM2[1]]
+    NM3=len(max3)
+    MinMaxM3= ab.findLocalMaximaMinima(n=NM3,arr=max3)
+    max_M3= ntmean[MinMaxM3[0]]
+    min_M3= ntmean[MinMaxM3[1]]
+    #print(ab.integrate.LAST_SOLVER_MSG)
+    #print(ab.integrate.LAST_SOLVER_STATUS)
 
-        MinMax= ab.findLocalMaximaMinima(n=N,arr=ntmean)
-        max_nmean= ntmean[MinMax[0]]
-        min_nmean= ntmean[MinMax[1]]
-        #print(ab.integrate.LAST_SOLVER_MSG)
-        #print(ab.integrate.LAST_SOLVER_STATUS)
-
-        #np.savez(f"C:/Users/spigno/Documents/Dat_BifurcationGamma4/dat_{idx}.npz", ntmean=ntmean, nt=nt, at= at, gamma=m.gam, S=m.S, lam = m.lam,de = m.de, max_nmean=max_nmean, min_nmean=min_nmean)
-        m.s = st[:, -1]  # to use the last state as initial condition # is it useful??
+    np.savez(f"C:/Users/spigno/Documents/Dat_BifurcationGammaROLL/dat_{idx}.npz", nt=nt, at= at, gamma=m.gam, S=m.S, lam = m.lam,de = m.de, ntmean=ntmean,max1=max1,max2=max2,max3=max3, max_nmean=max_nmean, min_nmean=min_nmean, maxM1=max_M1, minM1=min_M1, maxM2=max_M2, minM2=min_M2, maxM3=max_M3, minM3=min_M3)
+    m.s = st[:, -1]  # to use the last state as initial condition # is it useful??
         
-        
-Notes: I do not know how to plot the bifurcation to be continuous, for example, for a parameter of gamma to keep for some time the same value of the state variable, and then change it and stay a bit with the new parameter...
