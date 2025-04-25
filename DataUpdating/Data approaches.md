@@ -39,20 +39,20 @@ What statistical analysis they made?
 I plotted the Species Abundances distribution SADs dividing by the diets (Fig. 1).  We observe on the x-axis, the log of abundances, so on the left the less abundant species, and on the right the more abundant species. On the y-axis, we have the prob. density, so for the low abundant species, it is high (10^4) while for the high abundant species it is low (10^-2).
 
   
-   ![a title](DataUpdating/ob1SADindandmean.png)
+   ![a title](ob1SADindandmean.png)
  Fig. 1: Species Abundance distribution of all the species across samples divided in male, female, control and Mediterranean diet. The dots are the individuals and the lines are the mean across individuals. 
  
 Then, I found curated Metagenomic Data, an R package that enable to easily download metagenomic data <DOI:10.18129/B9.bioc.curatedMetagenomicData>. The curatedMetagenomicData package provides standardized, curated human microbiome data for novel analyses.
 From this dataset I checked from data driven by diet and I found the data from De Filippis et al., 2019 "Distinct Genetic and Functional Traits of Human Intestinal Prevotella copri Strains Are Associated with Different Habitual Diets" <DOI:10.1016/j.chom.2019.01.004>. This experiment includes 90 subject, healthy, that went though three different diets: vegan, vegetarian and omnivore.
 Again, I plotted the abundance distributions (Fig. 2 ). We observe on the x-axis, the log of abundances, so on the left the less abundant species, and on the right the more abundant species. On the y-axis, we have the prob. density, so for the low abundant species, it is high (10^2) while for the high abundant species it is low (10^-5).
 
-![a title](DataUpdating/SAD_bydiet.png)
+![a title](SAD_bydiet.png)
   
 Fig. 2: The Species Abundance Distribution of all the species across different samples, divided in vegetarian, vegan and omnivore.
 
 Then, I evaluated the abundances by ordering the species from the most abundant to the less abundant with a Rank Abundance Plot (Fig. 3)
 
-![[Ranka_bydiet.png]]
+![a title](Ranka_bydiet.png)
 Fig. 3: The rank abundance plot of all the species across different samples, divided in vegetarian, vegan and omnivore.
 
 From those two datasets I didn't see visually a difference in the shape of the abundance distribution. The conclusion at this point is that the shape is always the same regardless of the diet.  Looking at different shapes of SADs in different individuals, is it enough to say that there is no difference?
@@ -76,11 +76,11 @@ The mainly differences between mine and his data is that:
 
 For example, the CAP, Canonycal analysis of principal coordinates: A useful method of costrained ordination for ecology, enables us to see segregation. CAP Canonycal analysis of principal coordinates based on discriminant analysis: this method uses the diet as a constraint, and we can see that some species segregates into different diets (Fig. 4).
 
-![a title](DataUpdating/CAPanalysis.png)Fig. 4: CAP analysis based on the species and on the individuals with the constraint of the diet. The blue, red and green triangles represent the individuals that were under a vegetarian, omnivore and vegan diet, respectively.
+![a title](CAPanalysis.png) Fig. 4: CAP analysis based on the species and on the individuals with the constraint of the diet. The blue, red and green triangles represent the individuals that were under a vegetarian, omnivore and vegan diet, respectively.
 
 We then tried to plot the species abundances in a three phase diagram (Fig. 5). We mediated all the individuals for the three type of diet and then we plotted the abundance of all the species across the three type of diet. In the middle there are the species that occur in the three diets, while in the angles the one that occur more in one of the three diets. The vegan and the omnivore share less species than the omnivore and vegetarian and the most of the species are shared between vegetarian and vegan.   
 
-![[DataUpdating/Triphasediagramballs.png|Fig.4: Triphase diagram ]]
+![a title](Triphasediagramballs.png) 
 Fig. 5: Three phases diagram based on the abundance of the species inside the three group. The circles represents the species.
 
 I had a look to other papers about the topic, and they use usually as ordination not just PCA but nMDS or PCA with other methods (Coinertia analysis) and they obtain segregation.
