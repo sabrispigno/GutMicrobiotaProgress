@@ -15,33 +15,31 @@ We draw $C_{ij}\sim \mathcal{N}(\mu,\sigma)$, i.e. not with weak interaction sca
 #### Changing Sigma Gammma
 SIMULATIONS - Fix $\mu$ and $\delta$ and change $\gamma$ and  $\sigma$. 
 
-We now consider the space $\mu$ and $\sigma$ as in  Ecological communities with Lotka-Volterra dynamics; DOI: https://doi.org/10.1103/PhysRevE.95.042414. In our case mu and sigma are $\hat{\mu} = S \mu$ and $\hat{\sigma} = \sqrt{S} \sigma $
-In this case it will change to the Unique Fixed Points regime where the values of $\mu$ and $\sigma$ are smaller (0.005 and 0.001). The point is to change $\sigma$, to see if we get into the multiple attractor phase.
+
 
 $$ 
-Cij = N \sim (\mu ,\sigma) ;\  \mu=0.001;\ \sigma=[0.002-0.013];\ \gamma=[0.01-0.99];\ \delta= 0.01;\ \lambda= 1e-10\  
+Cij = N \sim (\mu ,\sigma) ;\  \mu=0.2;\ \sigma=[0.001-0.1];\ \gamma=[0-1];\ \delta= 0.01;\ \lambda= 1e-8\  
 $$
 
-*Memo for me: it is the folder called "Dat_SigmaGammaRK45" 
-
 SPECIES DYNAMICS
-![a title](SigmaGamma/10speciesSigmaGammaRK452.png)
+![a title](SigmaGamma/10Species.png)
 
 Now I plot the same simulation but in Linear scale
-![a title](SigmaGamma/10AspeciesSigmaGammaRK45Linear2.png)
+![a title](SigmaGamma/10SpeciesLinear.png)
 
 AUTOTOXIN DYNAMICS
-![a title](SigmaGamma/10autotoxSigmaGammaRK452.png)
+![a title](SigmaGamma/10Autotox.png)
 
 Now I plot the same simulation but in Linear scale
-![a title](SigmaGamma/10autotoxSigmaGammaRK45Linear2.png)
+![a title](SigmaGamma/10AutotoxLinear.png)
+
 
 
 SIMULATIONS -Fixing $\mu$ and $\sigma$ and changing $\gamma$ and $\delta$ 
 
 #### Fixed Point Regime 
 I have parametrised the new model by using the old parameters, scaling the parameters in the new way (see. Notes Autotoxicity model by Emil). 
-$$ Cij = N \sim 0.23,0.05;\ \gamma=[0-1];\ \delta= [0.001-1];\ \lambda= 0 $$
+$$ Cij = N \sim 0.23,0.05;\ \gamma=[0-1];\ \delta= [0.001-1];\ \lambda= 1e-8 $$
 
 SPECIES DYNAMICS
 ![a title](DeltaGamma/10speciesFP.png)
@@ -76,8 +74,7 @@ I tried a bifurcation analysis changing the parameter $\delta$  from 0.001 to 0.
 
 Note:
 Increasing the autotoxicity the switch from Fixed Point to Chaotic regime passing through oscillatory phase is faster. 
-On the other end, I would expect that increasing or decreasing autotoxicity would do something also in the Chaotic Phase regime. For example biologically I expect that with high diluition of autotoxicity, so less autotoxicity, the dominant species will have more space to dominate, while with low diluition, so more autotoxicity, the dominant species will be suppressed buy his own autotoxicity. I expect that also for low production of autotoxicity. It seems that in the chaotic regime this effect of the autotoxicity is not showed with this model. Is seems that also if I produce low autotoxicity I keep being in chaotic fase, so that the interacting matrix A is most important factor. 
+On the other end, I would expect that increasing or decreasing autotoxicity would do something also in the Chaotic Phase regime. For example biologically I expect that with high diluition of autotoxicity, so less autotoxicity, the dominant species will have more space to dominate, while with low diluition, so more autotoxicity, the dominant species will be suppressed buy his own autotoxicity. I expect that also for low production of autotoxicity. It seems that in the chaotic regime this effect of the autotoxicity is not showed with this model. Is seems that also if it produce low autotoxicity it keep being in chaotic fase, so that the interacting matrix A is most important factor. 
 
-![a title](DeltaGamma/10speciesCH2.png)
+![a title](DeltaGamma/10speciesCH.png)
 
-![a title](DeltaGamma/10autotoxCH2.png)
