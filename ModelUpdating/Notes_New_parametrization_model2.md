@@ -15,8 +15,6 @@ We draw $C_{ij}\sim \mathcal{N}(\mu,\sigma)$, i.e. not with weak interaction sca
 #### Changing Sigma Gammma
 SIMULATIONS - Fix $\mu$ and $\delta$ and change $\gamma$ and  $\sigma$. 
 
-
-
 $$ 
 Cij = N \sim (\mu ,\sigma) ;\  \mu=0.2;\ \sigma=[0.001-0.1];\ \gamma=[0-1];\ \delta= 0.01;\ \lambda= 1e-8\  
 $$
