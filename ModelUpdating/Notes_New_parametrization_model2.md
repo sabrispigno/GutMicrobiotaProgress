@@ -20,7 +20,7 @@ Cij = N \sim (\mu ,\sigma) ;\  \mu=0.2;\ \sigma=[0.001-0.1];\ \gamma=[0-1];\ \de
 $$
 
 SPECIES DYNAMICS
-![a title](SigmaGamma/10Species.png)
+![a title](SigmaGamma/10species.png)
 
 Now I plot the same simulation but in Linear scale
 ![a title](SigmaGamma/10SpeciesLinear.png)
