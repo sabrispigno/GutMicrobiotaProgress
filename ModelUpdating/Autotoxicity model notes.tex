@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\title{Generalizing GLV to Autotoxicity Model}
+\date{}
+\begin{document}
+
+\maketitle
+
+\section{Generalizing GLV to Autotoxicity Model}
+
+Our starting point is the GLV:
+\begin{equation}
+\dot{n}_i = n_i\left( r_i - C_{ii} n_i - \sum_{j(\neq i)} C_{ij} n_j \right)
+\end{equation}
+This is a phenomenological and not a mechanistic model. The intra-specific suppression term, for instance, is meant to roughly capture the net effect of a variety of processes: conspecifics competition over resources, space, the effect of pathogens -- and autotoxicity. 
+
+We should therefore think of the autotoxicity model as \emph{unpacking} some of the biological processes hidden in the phenomenological self-suppression term, rather than adding new mechanisms \emph{on top} of what's already represented by the GLV. This gives the generalization:
+\begin{equation}
+\dot{n}_i = n_i\left( r - C_{ii} h(n_i,a_i) - \sum_{j(\neq i)} C_{ij} n_j \right),
+\end{equation}
+with $a_i$ the autotoxin concentration. We want to preserve, in a sense, the interpretation of $C_{ii}$ as the net strength of self-suppression effects. The function $h(n,a)$ should partition these effects into a fraction $\gamma$ due to autotoxicity and the remaining fraction $1-\gamma$ due to the other implicit causes.
+
+If we assume that individuals die due to autotoxicity at a rate proportional to the autotoxin concentration, then $h(n,a)$ is linear in both arguments. To have a notion of partitioning between $a$ and $n$, we must find what amount of $n$ constitutes an "equivalent" amount of $a$.
+
+To this end, consider the autotoxicity dynamics. Production occurs at a per capita rate $\beta$ and degradation/dilution at a rate $\delta$:
+\begin{equation}
+\dot{a}_i = \beta n_i - \delta a_i.
+\end{equation}
+The formal solution is:
+\begin{equation}
+a_i(t) = \frac{\beta}{\delta} \int_{-\infty}^t K_\delta(t-s) n_i(s)\, ds
+\end{equation}
+where $K_\delta$ is an exponentially decaying memory kernel:
+\begin{equation}
+K_\delta(s) = \delta e^{-\delta|s|} \quad \Rightarrow \quad \int_{-\infty}^0 K_\delta(s)\, ds = 1
+\end{equation}
+We can therefore write:b
+\begin{equation}
+a_i(t) = \frac{\beta}{\delta}\hat{n}_i(t)
+\end{equation}b
+where $\hat{n}_i$ is a historical weighted average of the abundance. The ratio $\beta/\delta$ is therefore the "conversion ratio" between suppression from autotoxicity and implicit density-dependent effects. The "unpacking" due to autotoxicity can be interpreted as:
+\begin{equation}
+C_{ii}n_i \rightarrow C_{ii}\left[ \gamma \hat{n}_i + (1-\gamma)n_i \right].
+\end{equation}
+Writing out the abundance dynamics in full:
+\begin{equation}
+\dot{n}_i = n_i\left[ r - C_{ii} \left(\gamma \frac{\delta}{\beta}a_i + (1-\gamma)n_i\right) - \sum_{j(\neq i)} C_{ij} n_j \right]
+\end{equation}
+There are \emph{three ways} that the autotoxicity model can exactly reduce to the GLV in this representation:
+\begin{itemize}
+  \item $\gamma \to 0$ (trivially)
+  \item $\delta \to \infty$ (so that $\hat{n}_i \to n_i$)
+  \item $\delta \to 0$ (but this is meaningless because autotoxicities explode)
+\end{itemize}
+For any values of $\gamma,\delta,\beta$, the fixed points are identical to those of the original GLV, although the stability properties can differ; the Jacobian of the autotoxicity model depends separately on these three parameters (compare Onofrio's notes).
+
+\section{Comparison to Previous Parametrization}
+Before we had written the model as:
+\begin{equation}
+\dot{n}_i / n_i = g ( 1 - \rho a_i ) - \sum_{j} B_{ij} n_j
+\end{equation}
+with the diagonal elements sometimes $B_{ii}=1$ other times $B_{ii}=0$, causing some confusion. Comparing the versions we have:
+\begin{equation}
+r=g, \quad C_{ii} \gamma \delta/\beta = g \rho, \quad C_{ii}(1-\gamma) = B_{ii}
+\end{equation}
+
+\section{Nondimensionalization}
+To simplify the study of the model, we make use of the fact that the arbitrary choice of units to measure time, abundance, and autotoxicity concentration allow us to reduce the number of relevant parameters by three. A detailed analysis proceeds by substituting:
+\begin{equation}
+n = N\tilde{n}, \quad a = A\tilde{a}, \quad t= T\tilde{t}
+\end{equation}
+in the dynamics, where the tilde-variable is nondimensional and the capital letter is the units of measurement to be decided. This leads one to conclude that the natural choice is:
+\begin{equation}
+T = 1/r, \quad N= r/C_{ii}, \quad A=\beta/C_{ii}.
+\end{equation}
+Note that this only works if $C_{ii}$ does not depend on $i$, but this we assume. We similarly nondimensionalise the other parameters:
+\begin{equation}
+\beta = \tilde{\beta}A/TN, \quad \delta = \tilde{\delta}/T, \quad C_{ij} = \tilde{C}_{ij}TN.
+\end{equation}
+In practice, this procedure is equivalent to simply putting $r=1,\beta=1,C_{ii}=1$ and dropping all the tildes. Thus, the simplified model is:
+\begin{align}
+\dot{n}_i &= n_i\left[ 1 - \left(\gamma \delta a_i + (1-\gamma)n_i\right) - \sum_{j(\neq i)} C_{ij} n_j \right] \\
+\dot{a}_i &= n_i - \delta a_i
+\end{align}
+We draw $C_{ij}\sim \mathcal{N}(\mu,\sigma)$, i.e., not with weak interaction scaling. In the end there are (beside species richness $S$) four continuous parameters to study: $\mu,\sigma,\delta,\gamma$.
+
+\section{Agenda}
+To understand how the $(\mu,\sigma)$ phase diagram of the GLV (not assuming weak scaling) is extended in the $\delta,\gamma$ directions.
+\begin{enumerate}
+    \item First look at dynamics versus $\delta,\gamma$ for few pairs $(\mu,\sigma)$ lying in the different phases in the GLV case
+    \item Assuming we then find a fixed $\delta$ for which $\gamma$ can change stability, do numerical bifurcation diagram in $\gamma$ to determine type. (Perhaps complement with Jacobian spectrum plots)
+    \item For the GLV, an arc in $(\mu,\sigma)$-space with not-too-large radius $\mu_0$ and focal point $(1,0)$ will cross all the boundaries of non-diverging phases perpendicularly. With $\phi$ the angle of such an arc, look at the dynamics in the $(\phi,\gamma)$-plane for some fixed $\delta$, or in $(\phi,\delta)$-plane for $\gamma=1$.
+\end{enumerate}
+
+We move forward after getting a sense of the range of the dynamics from these studies.
+
+\end{document}
