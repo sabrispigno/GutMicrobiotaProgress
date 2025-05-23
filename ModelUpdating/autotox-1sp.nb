@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     12149,        275]
-NotebookOptionsPosition[     11434,        255]
-NotebookOutlinePosition[     11879,        272]
-CellTagsIndexPosition[     11836,        269]
+NotebookDataLength[     15663,        367]
+NotebookOptionsPosition[     14180,        339]
+NotebookOutlinePosition[     14625,        356]
+CellTagsIndexPosition[     14582,        353]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -52,8 +52,8 @@ Cell[BoxData[
       RowBox[{
        RowBox[{"logn", "[", "0", "]"}], "==", "logn0"}], ",", " ", 
       RowBox[{
-       RowBox[{"loga", "[", "0", "]"}], "==", "loga0"}]}], "}"}]}], "\n", 
-   "\[IndentingNewLine]", 
+       RowBox[{"loga", "[", "0", "]"}], "==", "loga0"}]}], "}"}]}], 
+   "\[IndentingNewLine]", "\n", 
    RowBox[{
     RowBox[{"sol", "[", 
      RowBox[{
@@ -176,7 +176,7 @@ $CellContext`PR$$ = All, $CellContext`T$$ =
        Hold[$CellContext`T$$], 1000}, 1, 10000, ControlType -> Manipulator}, {{
        Hold[$CellContext`PR$$], All}, {{Automatic, {-2, 2.5}}, All}, 
       ControlType -> SetterBar}}, Typeset`size$$ = {
-    457.0493638992309, {106.49048020904547`, 112.22241363459858`}}, 
+    449.3369615554809, {107.99209866890617`, 113.72403209445928`}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
     Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -207,7 +207,7 @@ $CellContext`logn0$$/Log10[E], $CellContext`loga0$$/Log10[
          10000}, {{$CellContext`PR$$, All}, {{Automatic, {-2, 2.5}}, All}, 
          ControlType -> SetterBar}}, "Options" :> {}, "DefaultOptions" :> {}],
      ImageSizeCache->{
-      502.949363899231, {219.09163255279617`, 224.82356597834934`}},
+      495.236961555481, {201.67325101265686`, 207.40518443821003`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -241,7 +241,91 @@ $CellContext`logn0$$/Log10[E], $CellContext`loga0$$/Log10[
    3.953094993296194*^9}, {3.9530966339170876`*^9, 3.953096636838215*^9}, {
    3.953096677916094*^9, 3.9530966843927097`*^9}, {3.9530970465185947`*^9, 
    3.9530970687431583`*^9}},
- CellLabel->"Out[5]=",ExpressionUUID->"33d07247-7cc3-ff41-a331-86cc5325172e"]
+ CellLabel->"Out[5]=",ExpressionUUID->"33d07247-7cc3-ff41-a331-86cc5325172e"],
+
+Cell["\<\
+ReplaceAll::reps: 
+   {sol[2, 1, -3 Log[10], -10 Log[10], 1549.63]}
+     is neither a list of replacement rules nor a valid dispatch table, and so
+     cannot be used for replacing.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.9569814960708923`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"f9197145-365a-cd41-89e1-56a4a17b06ec"],
+
+Cell["\<\
+ReplaceAll::reps: 
+   {sol[2, 1, -3 Log[10], -10 Log[10], 1549.63]}
+     is neither a list of replacement rules nor a valid dispatch table, and so
+     cannot be used for replacing.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.9569814965186234`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"c26b0f1f-6d42-1b44-8a41-668fddab18fe"],
+
+Cell["\<\
+ReplaceAll::reps: 
+   {sol[2., 1., -6.90776, -23.0259, 1549.63]}
+     is neither a list of replacement rules nor a valid dispatch table, and so
+     cannot be used for replacing.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.9569814965204735`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"193348ca-87a5-7d48-9bb7-48ea95df51ea"],
+
+Cell["\<\
+General::stop: Further output of ReplaceAll::reps
+     will be suppressed during this calculation.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.956981496522484*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"4719822a-73f5-974c-a15b-cd96afa8ef94"],
+
+Cell["\<\
+ReplaceAll::reps: 
+   {sol[2, 1, -3 Log[10], -10 Log[10], 1549.63]}
+     is neither a list of replacement rules nor a valid dispatch table, and so
+     cannot be used for replacing.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.956981496867096*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"4cba1bad-a938-0543-b014-4d0f999a0e9b"],
+
+Cell["\<\
+ReplaceAll::reps: 
+   {sol[2, 1, -3 Log[10], -10 Log[10], 1549.63]}
+     is neither a list of replacement rules nor a valid dispatch table, and so
+     cannot be used for replacing.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.956981496900879*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"68764c7e-fbdf-e14a-bc72-0c6dd8aed8cf"],
+
+Cell["\<\
+ReplaceAll::reps: 
+   {sol[2., 1., -6.90776, -23.0259, 1549.63]}
+     is neither a list of replacement rules nor a valid dispatch table, and so
+     cannot be used for replacing.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.956981496902956*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"f6cbc169-3cac-1e4d-9421-e62ab9dd4f3d"],
+
+Cell["\<\
+General::stop: Further output of ReplaceAll::reps
+     will be suppressed during this calculation.\
+\>", "Message", "MSG",
+ CellChangeTimes->{3.956981496905306*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"4e275a93-d5f5-c14a-9d24-9b59eee0d24f"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -274,9 +358,17 @@ Notebook[{
 Cell[558, 20, 2235, 57, 88, "Input",ExpressionUUID->"6d615b56-fb49-44f4-bfc8-60da61296f1a"],
 Cell[CellGroupData[{
 Cell[2818, 81, 3369, 78, 85, "Input",ExpressionUUID->"407bf231-9572-4e7e-aa93-72d6ca124082"],
-Cell[6190, 161, 4941, 82, 480, "Output",ExpressionUUID->"33d07247-7cc3-ff41-a331-86cc5325172e"]
+Cell[6190, 161, 4941, 82, 426, "Output",ExpressionUUID->"33d07247-7cc3-ff41-a331-86cc5325172e"],
+Cell[11134, 245, 363, 9, 66, "Message",ExpressionUUID->"f9197145-365a-cd41-89e1-56a4a17b06ec"],
+Cell[11500, 256, 363, 9, 66, "Message",ExpressionUUID->"c26b0f1f-6d42-1b44-8a41-668fddab18fe"],
+Cell[11866, 267, 360, 9, 66, "Message",ExpressionUUID->"193348ca-87a5-7d48-9bb7-48ea95df51ea"],
+Cell[12229, 278, 278, 7, 37, "Message",ExpressionUUID->"4719822a-73f5-974c-a15b-cd96afa8ef94"],
+Cell[12510, 287, 361, 9, 66, "Message",ExpressionUUID->"4cba1bad-a938-0543-b014-4d0f999a0e9b"],
+Cell[12874, 298, 361, 9, 66, "Message",ExpressionUUID->"68764c7e-fbdf-e14a-bc72-0c6dd8aed8cf"],
+Cell[13238, 309, 358, 9, 66, "Message",ExpressionUUID->"f6cbc169-3cac-1e4d-9421-e62ab9dd4f3d"],
+Cell[13599, 320, 278, 7, 37, "Message",ExpressionUUID->"4e275a93-d5f5-c14a-9d24-9b59eee0d24f"]
 }, Open  ]],
-Cell[11146, 246, 284, 7, 28, "Input",ExpressionUUID->"3a78905f-3344-46e0-961c-6c3ebd7b53fe"]
+Cell[13892, 330, 284, 7, 28, "Input",ExpressionUUID->"3a78905f-3344-46e0-961c-6c3ebd7b53fe"]
 }
 ]
 *)
