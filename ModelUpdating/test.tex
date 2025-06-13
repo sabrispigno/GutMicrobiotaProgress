@@ -1,0 +1,51 @@
+\documentclass[11pt,a4paper,fleqn]{scrartcl}
+\usepackage{float}  % for [H] placement if needed
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsmath, amssymb, bm}
+
+\begin{document}
+
+\title{Generalizing GLV to Autotoxicity Model}
+
+\author{
+	\small{%
+		\href{https://orcid.org/}{Sabrina Spigno}\(^{1, *}\),
+		\href{https://orcid.org/}{}\(^1\)
+		\href{}{}\(^{1, *}\)
+	}
+}
+\date{2024/2025}
+\maketitle  
+
+\section{Explicit Autotoxin Dynamics (December 9, 2025)}
+The model version 1 with explicit dynamics for species-specific autotoxicity reads:
+\begin{equation}
+\frac{dn_i}{dt} = n_i \left(1 - \rho a_i - \sum_{j \neq i} C_{j} n_j + \lambda \right), \label{eq:model1}
+\end{equation}
+
+\begin{equation}
+\frac{da_i}{dt} = \beta n_i - \delta a_i, \label{eq:model2}
+\end{equation}
+
+The same equations but in log-scale:
+
+\begin{equation}
+\frac{dlog(n_i)}{dt} =  \left(1 - \rho a_i - \sum_{j \neq i} C_{j} n_j + \frac{\lambda}{n_i} \right), \label{eq:modellog1}
+\end{equation}
+
+\begin{equation}
+\frac{dlog(a_i)}{dt} = \beta\frac{n_i}{a_i} - \delta , \label{eq:modellog2}
+\end{equation}
+\clearpage
+
+\subsection{From single to community level dynamics Model Autotoxin 1}
+
+\paragraph{Single species dynamics Model Autotoxin 1: S=1}
+Increasing the diluition rate of the autotoxin lead the model to act as a gLV, because the autotoxicity does not accumulate.
+
+
+
+\end{document}

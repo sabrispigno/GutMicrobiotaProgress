@@ -1,0 +1,156 @@
+\documentclass{article}
+
+\usepackage{amsmath,amssymb}
+\newcommand{\diff}{\mathop{}\!\mathrm{d}}
+
+
+\title{Parameterization of the autotoxicity model}
+
+\begin{document}
+\maketitle
+
+First we consider one species and one autotoxin:
+
+\begin{equation}
+\begin{cases}
+    \dot{N} = N(r- k A - cN) \\
+    \dot{A} = p N - d A + z
+\end{cases}    
+\end{equation}
+Comment on parameter names: $k$ for autotoxin \underbar{k}illing, $c$ for intraspecific \underbar{c}ompetition, $p$ for autotoxin \underbar{p}roduction, $d$ for \underbar{d}ilution, $z$ for \underbar{s}upply.   
+
+A feasible equilibrium exists if 
+\begin{equation}
+    z > z^\text{kill} = \frac{dr}{k}. 
+\end{equation}
+Then
+\begin{equation}
+    \begin{cases}
+        N^* = \dfrac{r - \frac{kz}{d}}{c+ \frac{kp}{d}} = \dfrac{1}{p}\cdot \dfrac{z^\text{kill} - z}{1 + \frac{cd}{kp}} \\
+        \ \\
+        A^* = \dfrac{p N^* + z}{d}   
+    \end{cases}
+\end{equation}
+[Task: show that the equilibrium is always stable and globally attracting (as we have done already for $z=0$).]
+
+
+
+
+We define reference values of $N$ and $A$ as their equilibrium values when there is no external autotoxin supply, $z=0$.
+
+\begin{equation}\label{eq:ref}
+    \begin{cases}        
+        N^\text{ref} = N^*\big\vert_{z=0} = \dfrac{r}{c}\cdot \dfrac{1}{1 + \frac{kp}{cd}}\\
+        \ \\
+        A^\text{ref} = A^*\big\vert_{z=0} = \dfrac{p}{d}N^\text{ref} = \dfrac{r}{k}\cdot \dfrac{1}{1 + \frac{cd}{kp}}.
+    \end{cases}
+\end{equation}
+Using the reference values we can rewrite the fixed point as
+\begin{equation}
+    \begin{cases}
+        N^* = N^\text{ref} - \dfrac{1}{p} \cdot \dfrac{1}{1 + \frac{cd}{pk}} z \\
+        \ \\
+        A^* = A^\text{ref} +  \dfrac{1}{d}\cdot \dfrac{1}{1 + \frac{kp}{cd} } z 
+    \end{cases}
+\end{equation}
+
+
+We introduce new variables by rescaling with the reference values: $n = N/N^\text{ref}$ and $a = A/A^\text{ref}$. We then get
+\begin{align}
+    \frac{\diff }{\diff t}n &= n\left[ r - k A^\text{ref} a - c N^\text{ref} n \right]  \\
+    &= n \left[ r - (k A^\text{ref} + c N^\text{ref}) ( \gamma a + (1-\gamma) n ) \right] \label{eq:n-7}
+\end{align}
+where
+\begin{equation}
+    \gamma = \frac{k A^\text{ref}}{k A^\text{ref} + c N^\text{ref}} = \frac{1}{1 + \frac{cd}{kp}}\quad 1-\gamma = \frac{c N^\text{ref}}{k A^\text{ref} + c N^\text{ref}} = \frac{1}{1 + \frac{kp}{cd}}.
+\end{equation}
+Note that \eqref{eq:ref} implies
+\begin{equation}
+    k A^\text{ref} + c N^\text{ref} = r.
+\end{equation}
+We can then simplify \eqref{eq:n-7}
+\begin{equation}
+    \frac{\diff}{\diff(rt)} n = n\left[ 1 - \gamma a - (1-\gamma) n \right].
+\end{equation}
+Similarly, we find
+\begin{equation}
+    \frac{\diff}{\diff(rt)} a = \delta ( n - a) + \zeta
+\end{equation}
+where
+\begin{equation}
+    \delta = \frac{d}{r},\quad \zeta = \frac{z}{r  A^\text{ref}}.
+\end{equation}
+%Choosing units of time so that $r=1$, we get rid of this parameter without loss of generality.
+
+To summarize, we can reduce the initial set of six variables, $\{ r, k, c, p, d, z\}$, down to three, $\{ \gamma, \delta, \zeta \}$, by measuring abundances and autotoxicity relative to their reference values (which depend on the first five of the original parameters) and rescaling time by $1/r$. We must be aware, however, that treating the initial set as \textit{independent} parameters is different from treating the reduced set as independent, and vice versa.
+
+
+Now we consider the multi-species case with interactions.
+\begin{equation}
+    \frac{\diff }{\diff t} {N}_i = N_i \left[ r_i - k_i A_i - c_{ii} N_i - \sum_{j(\neq i)} c_{ij}N_j \right] + l_i.
+\end{equation}
+We allow parameters to differ between species; $r\to r_i$, etc. Following the same steps as above,
+\begin{equation}
+    \frac{\diff }{\diff t} n_i = r_i n_i \left[ 1 - \gamma_i a_i - (1 - \gamma_i)n_i - \sum_{j(\neq i)}  \kappa_{ij} n_j   \right] + r_i \lambda_i
+\end{equation}
+where
+\begin{equation}
+    \kappa_{ij} = \frac{c_{ij} N_j^\text{ref}}{r_i},\quad \lambda_i = \frac{l_i}{r_i N_i^\text{ref}}.
+\end{equation}
+For the autotoxicity,
+\begin{equation}
+    \frac{\diff }{\diff t} a_i = r_i \delta_i (n_i - a_i) + r_i \zeta_i.
+\end{equation}
+
+
+
+If species have heterogeneous $r_i$, we don't gain much by rescaling time, since we only eliminate 1 out of $S$ parameter with units of time. Nonetheless, we could rescale by the maximum or mean $r$, for convenience. Note also that if species are heterogeneous in their $N_i^\text{ref}$ and $r_i$, it is very different to draw $c_{ij}$ at random, than drawing $\kappa_{ij}$ at random!
+
+Focussing on the case where species only differ in their $c_{ij}$'s and $z_i$,
+
+\begin{subequations}\label{eqs}
+\begin{align}
+    \frac{\diff }{\diff (rt)} n_i &= n_i \left[ 1 - \gamma a_i - (1 - \gamma)n_i - \sum_{j(\neq i)}  \kappa_{ij} n_j   \right] + \lambda \\
+    \frac{\diff }{\diff (rt)} a_i &= \delta (n_i - a_i) + \zeta_i.
+\end{align}
+\end{subequations}
+
+In this case, drawing $c_{ij} \sim \mathcal{N}(m,s^2)$ is equivalent to drawing $\kappa_{ij} \sim \mathcal{N}(\mu,\sigma^2)$ where 
+\begin{equation}
+    \mu = \frac{N^\text{ref}}{r} m,\quad \sigma = \frac{N^\text{ref}}{r} s .
+\end{equation}
+
+For simulations we want to use \eqref{eqs}. Let's consider how the reduced parameters change if we vary the original $d \to d' = x d$, while keeping all other original parameters constant (assume $0  <\gamma < 1$).
+\begin{align}
+    \delta' &= \delta \cdot x \\
+    \gamma' &= \frac{\gamma}{\gamma + (1 - \gamma) x} = \begin{cases}
+        1,& x = 0 \\
+        \gamma, & x = 1 \\
+        0, & x \gg 1
+    \end{cases} \\
+    {N^\text{ref}}' &= N^\text{ref} \cdot \dfrac{x}{\gamma + (1-\gamma) x} = \begin{cases}
+        0,& x = 0 \\
+        N^\text{ref}, & x = 1 \\
+        N^\text{ref} / (1 - \gamma), & x \gg 1
+    \end{cases} \\
+    {A^\text{ref}}' &= A^\text{ref} \cdot \dfrac{1}{\gamma + (1-\gamma) x} = \begin{cases}
+        A^\text{ref}/\gamma,& x = 0 \\
+        A^\text{ref}, & x = 1 \\
+        0, & x \gg 1
+    \end{cases} \\
+    \mu' &=  \mu \cdot \dfrac{x}{\gamma + (1-\gamma) x} = \begin{cases}
+        0,& x = 0 \\
+        \mu, & x = 1 \\
+        \mu / (1 - \gamma), & x \gg 1
+    \end{cases}\\
+    \sigma' &= \sigma \cdot \dfrac{x}{\gamma + (1-\gamma) x} = \begin{cases}
+        0,& x = 0 \\
+        \sigma, & x = 1 \\
+        \sigma / (1 - \gamma), & x \gg 1
+    \end{cases}
+\end{align}
+
+The point is that changing $\delta$, keeping $\gamma$ fixed, is different from changing the original dilution rate $d$, keeping all other original parameters fixed. As we increase $d$, beside $\delta$ changing proportionally, we are reducing $\gamma$ (i.e.\ more of the net intraspecific suppression is due to non-autotoxic effect), we are increasing the reference level of abundance (i.e.\ the equilibrium value without interspecific interactions or external autotoxin supply), and we are increasing the strength of interspecific interaction relative the overall level of intraspecific suppression. 
+
+
+\end{document}

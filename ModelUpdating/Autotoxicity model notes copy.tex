@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper,fleqn]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,bbold}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[labelfont=bf]{caption}
+\usepackage{hyperref}
+\usepackage[capitalise]{cleveref}
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
+\usepackage{lineno}
+\usepackage{todonotes}
+\usepackage{xcolor}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm, bottom=3cm]{geometry}
+% \usepackage[round]{natbib}
+\usepackage[super,sort&compress,comma]{natbib} % Nature
+
+% todonotes command for Arne's comments
+\newcommand{\AT}[1]{\todo[inline,backgroundcolor=green!25]{{\footnotesize AT: }\footnotesize #1{}}}
+\renewcommand{\familydefault}{\sfdefault}
+% set margin to avoid todonotes warning
+\setlength{\marginparwidth}{2cm}
+
+% enabele line numbering
+\linenumbers
+
+\title{My awesome title}
+\author{
+	\small{%
+		\href{https://orcid.org/0000-0003-1642-4687}{Jennifer Doe}\(^{1, *}\),
+		\href{https://orcid.org/0000-0002-0669-5267}{Arne Traulsen}\(^1\)
+		\href{}{Serafina Shmoe}\(^{1, *}\)
+	}
+}
+\date{
+	\footnotesize{
+		\(^1\)
+		Department of Theoretical Biology, 
+		Max Planck Institute for Evolutionary Biology, 
+		August-Thienemann-Str. 2, 
+		24306 Pl\"on\\
+		\(^*\)doe@evolbio.mpg.de
+	}
+}
+
+\begin{document}
+
+\maketitle
+
+\vfill
+{\centering\section*{Abstract}}
+It is general, abstract, and nonsense. \\
+
+\textbf{Keywords}: mathematical biology, theoretical biology, evolution, ecology
+
+\clearpage
+\section{Introduction}
+Extremely compelling, indeed \citep{raatz:PlosCB:2021}! \AT{Work out this idea!}
+
+
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+%\bibliography{\string/Volumes/shah/projects/et-bib/et.bib}  % Saumil
+\bibliography{\string~/Bibtex/et.bib}  % everyone else
+% \bibliographystyle{plainnat}
+\bibliographystyle{unsrtnat} % Nature
+
+
+\end{document}

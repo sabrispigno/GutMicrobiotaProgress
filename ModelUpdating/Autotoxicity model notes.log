@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.22)  23 MAY 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.22)  11 JUN 2025 11:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,39 +7,149 @@ entering extended mode
 (c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
-(C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
+Document Class: scrartcl 2024/10/24 v3.43 KOMA-Script document class (article)
+(C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+))) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
 )
-\c@part=\count187
-\c@section=\count188
-\c@subsection=\count189
-\c@subsubsection=\count190
-\c@paragraph=\count191
-\c@subparagraph=\count192
-\c@figure=\count193
-\c@table=\count194
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip48
+\scr@dte@tocline@numbox=\box51
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+Package scrartcl Info: You've used standard option `11pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=11pt' there
+(scrartcl)             instead of `11pt', too.
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip49
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+)
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input line 2466.
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize11pt.clo
+File: scrsize11pt.clo 2024/10/24 v3.43 KOMA-Script font size class option (11pt)
+) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\typearea.sty
+Package: typearea 2024/10/24 v3.43 KOMA-Script package (type area)
+\ta@bcor=\skip50
+\ta@div=\count187
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+\ta@hblk=\skip51
+\ta@vblk=\skip52
+\ta@temp=\skip53
+\footheight=\skip54
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1802.
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\scr@dte@section@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5107.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5107.
+\scr@dte@part@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5115.
+\scr@dte@subsection@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5125.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5125.
+\scr@dte@subsubsection@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5135.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5135.
+\scr@dte@paragraph@maxnumwidth=\skip59
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5146.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5146.
+\scr@dte@subparagraph@maxnumwidth=\skip60
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5156.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5156.
+\abovecaptionskip=\skip61
+\belowcaptionskip=\skip62
+\c@pti@nb@sid@b@x=\box52
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6337.
+\scr@dte@figure@maxnumwidth=\skip63
+\c@figure=\count194
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6353.
+\scr@dte@table@maxnumwidth=\skip64
+\c@table=\count195
+Class scrartcl Info: Redefining `\numberline' on input line 6523.
 \bibindent=\dimen140
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count195
-\float@exts=\toks17
-\float@box=\box51
-\@float@everytoks=\toks18
-\@floatcapt=\box52
+\c@float@type=\count196
+\float@exts=\toks18
+\float@box=\box53
+\@float@everytoks=\toks19
+\@floatcapt=\box54
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+\@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks19
+\@emptytoks=\toks20
 \ex@=\dimen141
 )) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -47,19 +157,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count196
+\inf@bad=\count197
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
+\uproot@=\count198
+\leftroot@=\count199
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count199
-\DOTSCASE@=\count266
+\classnum@=\count266
+\DOTSCASE@=\count267
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
+\Mathstrutbox@=\box55
+\strutbox@=\box56
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
@@ -67,31 +177,31 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
+\macc@depth=\count268
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count268
+\c@MaxMatrixCols=\count269
 \dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
-\tag@help=\toks20
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
-\andhelp@=\toks21
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
+\tag@help=\toks21
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
+\andhelp@=\toks22
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
 \tagshift@=\dimen146
 \tagwidth@=\dimen147
 \totwidth@=\dimen148
 \lineht@=\dimen149
-\@envbody=\toks22
-\multlinegap=\skip51
-\multlinetaggap=\skip52
-\mathdisplay@stack=\toks23
+\@envbody=\toks23
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
@@ -105,10 +215,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -133,11 +240,16 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@indent=\dimen157
 \caption@parindent=\dimen158
 \caption@hangindent=\dimen159
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count274
-\c@continuedfloat=\count275
+Package caption Info: KOMA-Script document class detected.
+ (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-koma.sto
+File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
 Package caption Info: float package is loaded.
+Package caption Info: KOMA-Script scrextend package detected.
+\caption@addmargin@hsize=\dimen160
+\caption@addmargin@linewidth=\dimen161
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
@@ -149,37 +261,46 @@ Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box57
 ) (Autotoxicity model notes.aux)
 \openout1 = `"Autotoxicity model notes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+Package scrbase Info: activating english \abstractname on input line 9.
+Package scrbase Info: activating english \partname on input line 9.
+Package scrbase Info: activating english \figurename on input line 9.
+Package scrbase Info: activating english \tablename on input line 9.
+Package scrbase Info: activating english \contentsname on input line 9.
+Package scrbase Info: activating english \listfigurename on input line 9.
+Package scrbase Info: activating english \listtablename on input line 9.
+Package scrbase Info: activating english \refname on input line 9.
+Package scrbase Info: activating english \indexname on input line 9.
  (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
-\scratchdimen=\dimen160
-\scratchbox=\box56
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\scratchcounter=\count278
+\scratchdimen=\dimen162
+\scratchbox=\box58
+\nofMPsegments=\count279
+\nofMParguments=\count280
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count280
-\MPscratchDim=\dimen161
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen163
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
 \everyMPtoPDFconversion=\toks26
 ) (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -189,165 +310,272 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
  (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (C:\Users\spigno\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex:21: Undefined control sequence.
+\@author -> \small {\href 
+                          {https://orcid.org/}{Sabrina Spigno}\(^{1, *}\), \...
+l.21 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-{C:/Users/spigno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] [3]
-<SingleSpecies/time_series_single_species.png, id=23, 578.16pt x 361.35pt>
+c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex:21: Undefined control sequence.
+\@author ...g/}{Sabrina Spigno}\(^{1, *}\), \href 
+                                                  {https://orcid.org/}{}\(^1...
+l.21 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex:21: Undefined control sequence.
+\@author ...ef {https://orcid.org/}{}\(^1\) \href 
+                                                  {}{}\(^{1, *}\) } 
+l.21 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+
+{C:/Users/spigno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<SingleSpecies/Model01species.png, id=17, 570.933pt x 281.853pt>
+File: SingleSpecies/Model01species.png Graphic file (type png)
+<use SingleSpecies/Model01species.png>
+Package pdftex.def Info: SingleSpecies/Model01species.png  used on input line 50.
+(pdftex.def)             Requested size: 418.25555pt x 206.4864pt.
+ [2
+
+ <./SingleSpecies/Model01species.png>]
+<SingleSpecies/twospeciesModel0.png, id=23, 807.2559pt x 667.0521pt>
+File: SingleSpecies/twospeciesModel0.png Graphic file (type png)
+<use SingleSpecies/twospeciesModel0.png>
+Package pdftex.def Info: SingleSpecies/twospeciesModel0.png  used on input line 62.
+(pdftex.def)             Requested size: 418.25555pt x 345.60696pt.
+ [3
+
+ <./SingleSpecies/twospeciesModel0.png>]
+
+LaTeX Warning: Reference `eq:model2' on page 4 undefined on input line 94.
+
+[4] [5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+LaTeX Warning: Reference `EqParametrizedSpecies' on page 8 undefined on input line 259.
+
+
+LaTeX Warning: Reference `EqParametrizedAutotoxicity' on page 8 undefined on input line 259.
+
+<SingleSpecies/time_series_single_species.png, id=44, 578.16pt x 361.35pt>
 File: SingleSpecies/time_series_single_species.png Graphic file (type png)
 <use SingleSpecies/time_series_single_species.png>
-Package pdftex.def Info: SingleSpecies/time_series_single_species.png  used on input line 138.
-(pdftex.def)             Requested size: 345.0pt x 215.6207pt.
- [4 <./SingleSpecies/time_series_single_species.png>] [5
+Package pdftex.def Info: SingleSpecies/time_series_single_species.png  used on input line 272.
+(pdftex.def)             Requested size: 418.25555pt x 261.40688pt.
+[8]
 
-]
-<SingleSpecies/RadFreq.png, id=33, 462.528pt x 346.896pt>
+LaTeX Warning: Reference `EqParametrizedSpecies' on page 9 undefined on input line 278.
+
+
+LaTeX Warning: Reference `EqParametrizedAutotoxicity' on page 9 undefined on input line 278.
+
+[9 <./SingleSpecies/time_series_single_species.png>]
+<SingleSpecies/RadFreq.png, id=52, 462.528pt x 346.896pt>
 File: SingleSpecies/RadFreq.png Graphic file (type png)
 <use SingleSpecies/RadFreq.png>
-Package pdftex.def Info: SingleSpecies/RadFreq.png  used on input line 218.
-(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
- [6
+Package pdftex.def Info: SingleSpecies/RadFreq.png  used on input line 340.
+(pdftex.def)             Requested size: 418.25555pt x 313.70677pt.
 
-] [7 <./SingleSpecies/RadFreq.png>]
-<SingleSpecies/TwoSpecies3Cases.png, id=42, 867.24pt x 722.7pt>
+
+LaTeX Warning: Reference `figRealandImaginaryPart' on page 10 undefined on input line 345.
+
+[10 <./SingleSpecies/RadFreq.png>]
+
+LaTeX Warning: Reference `simulationOneSpecies' on page 11 undefined on input line 358.
+
+<SingleSpecies/TwoSpecies3Cases.png, id=57, 867.24pt x 722.7pt>
 File: SingleSpecies/TwoSpecies3Cases.png Graphic file (type png)
 <use SingleSpecies/TwoSpecies3Cases.png>
-Package pdftex.def Info: SingleSpecies/TwoSpecies3Cases.png  used on input line 248.
-(pdftex.def)             Requested size: 345.0pt x 287.49794pt.
- [8
+Package pdftex.def Info: SingleSpecies/TwoSpecies3Cases.png  used on input line 374.
+(pdftex.def)             Requested size: 418.25555pt x 348.54617pt.
+[11]
 
- <./SingleSpecies/TwoSpecies3Cases.png>] [9] [10
+LaTeX Warning: Reference `figtwospecies' on page 12 undefined on input line 382.
 
-] [11]
-<SigmaGamma/10Species.pdf, id=62, 1445.4pt x 1445.4pt>
+
+LaTeX Warning: Reference `eqnologspecies' on page 12 undefined on input line 388.
+
+
+LaTeX Warning: Reference `eqnologautotox' on page 12 undefined on input line 388.
+
+[12 <./SingleSpecies/TwoSpecies3Cases.png>]
+
+LaTeX Warning: Reference `eqlogcommunitydynamicsspecies' on page 13 undefined on input line 399.
+
+
+LaTeX Warning: Reference `eqlogcommunitydynamicsautotoxicity' on page 13 undefined on input line 399.
+
+[13] [14
+
+]
+<SigmaGamma/10Species.pdf, id=73, 1445.4pt x 1445.4pt>
 File: SigmaGamma/10Species.pdf Graphic file (type pdf)
 <use SigmaGamma/10Species.pdf>
-Package pdftex.def Info: SigmaGamma/10Species.pdf  used on input line 382.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
- [12
+Package pdftex.def Info: SigmaGamma/10Species.pdf  used on input line 502.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
+ [15
 
  <./SigmaGamma/10Species.pdf>]
-<SigmaGamma/10SpeciesLinear.pdf, id=517, 1445.4pt x 1445.4pt>
+<SigmaGamma/10SpeciesLinear.pdf, id=522, 1445.4pt x 1445.4pt>
 File: SigmaGamma/10SpeciesLinear.pdf Graphic file (type pdf)
 <use SigmaGamma/10SpeciesLinear.pdf>
-Package pdftex.def Info: SigmaGamma/10SpeciesLinear.pdf  used on input line 390.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
- [13
+Package pdftex.def Info: SigmaGamma/10SpeciesLinear.pdf  used on input line 510.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
+ [16
 
  <./SigmaGamma/10SpeciesLinear.pdf>]
 <SigmaGamma/10Autotox.pdf, id=973, 1445.4pt x 1445.4pt>
 File: SigmaGamma/10Autotox.pdf Graphic file (type pdf)
 <use SigmaGamma/10Autotox.pdf>
-Package pdftex.def Info: SigmaGamma/10Autotox.pdf  used on input line 398.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
- [14
-
- <./SigmaGamma/10Autotox.pdf>]
-<SigmaGamma/10AutotoxLinear.pdf, id=1431, 1445.4pt x 1445.4pt>
-File: SigmaGamma/10AutotoxLinear.pdf Graphic file (type pdf)
-<use SigmaGamma/10AutotoxLinear.pdf>
-Package pdftex.def Info: SigmaGamma/10AutotoxLinear.pdf  used on input line 406.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
- [15
-
- <./SigmaGamma/10AutotoxLinear.pdf>]
-<SigmaGamma/EigenvalueSpectraLog.pdf, id=1889, 1445.4pt x 1445.4pt>
-File: SigmaGamma/EigenvalueSpectraLog.pdf Graphic file (type pdf)
-<use SigmaGamma/EigenvalueSpectraLog.pdf>
-Package pdftex.def Info: SigmaGamma/EigenvalueSpectraLog.pdf  used on input line 416.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
- [16
-
- <./SigmaGamma/EigenvalueSpectraLog.pdf>]
-<DeltaGamma/10Species.pdf, id=2339, 1445.4pt x 1445.4pt>
-File: DeltaGamma/10Species.pdf Graphic file (type pdf)
-<use DeltaGamma/10Species.pdf>
-Package pdftex.def Info: DeltaGamma/10Species.pdf  used on input line 432.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
+Package pdftex.def Info: SigmaGamma/10Autotox.pdf  used on input line 518.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
  [17
 
- <./DeltaGamma/10Species.pdf>]
-<DeltaGamma/10SpeciesFPLinear.pdf, id=2800, 1445.4pt x 1445.4pt>
-File: DeltaGamma/10SpeciesFPLinear.pdf Graphic file (type pdf)
-<use DeltaGamma/10SpeciesFPLinear.pdf>
-Package pdftex.def Info: DeltaGamma/10SpeciesFPLinear.pdf  used on input line 440.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
+ <./SigmaGamma/10Autotox.pdf>]
+<SigmaGamma/10AutotoxLinear.pdf, id=1039, 1445.4pt x 1445.4pt>
+File: SigmaGamma/10AutotoxLinear.pdf Graphic file (type pdf)
+<use SigmaGamma/10AutotoxLinear.pdf>
+Package pdftex.def Info: SigmaGamma/10AutotoxLinear.pdf  used on input line 526.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
  [18
 
- <./DeltaGamma/10SpeciesFPLinear.pdf>]
-<DeltaGamma/10autotoxFP.pdf, id=3253, 1445.4pt x 1445.4pt>
-File: DeltaGamma/10autotoxFP.pdf Graphic file (type pdf)
-<use DeltaGamma/10autotoxFP.pdf>
-Package pdftex.def Info: DeltaGamma/10autotoxFP.pdf  used on input line 448.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
+ <./SigmaGamma/10AutotoxLinear.pdf>]
+<SigmaGamma/EigenValuesLogSigmaGamma.pdf, id=1493, 1445.4pt x 1445.4pt>
+File: SigmaGamma/EigenValuesLogSigmaGamma.pdf Graphic file (type pdf)
+<use SigmaGamma/EigenValuesLogSigmaGamma.pdf>
+Package pdftex.def Info: SigmaGamma/EigenValuesLogSigmaGamma.pdf  used on input line 535.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
+<SigmaGamma/EigenValuesLinSigmaGamma.pdf, id=1494, 1445.4pt x 1445.4pt>
+File: SigmaGamma/EigenValuesLinSigmaGamma.pdf Graphic file (type pdf)
+<use SigmaGamma/EigenValuesLinSigmaGamma.pdf>
+Package pdftex.def Info: SigmaGamma/EigenValuesLinSigmaGamma.pdf  used on input line 541.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
  [19
 
- <./DeltaGamma/10autotoxFP.pdf>]
-<DeltaGamma/10AutotoxFPLinear.pdf, id=3710, 1445.4pt x 1445.4pt>
-File: DeltaGamma/10AutotoxFPLinear.pdf Graphic file (type pdf)
-<use DeltaGamma/10AutotoxFPLinear.pdf>
-Package pdftex.def Info: DeltaGamma/10AutotoxFPLinear.pdf  used on input line 456.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
- [20
-
- <./DeltaGamma/10AutotoxFPLinear.pdf>]
-<DeltaGamma/EigenvalueSpectraLog.pdf, id=4166, 1445.4pt x 1445.4pt>
-File: DeltaGamma/EigenvalueSpectraLog.pdf Graphic file (type pdf)
-<use DeltaGamma/EigenvalueSpectraLog.pdf>
-Package pdftex.def Info: DeltaGamma/EigenvalueSpectraLog.pdf  used on input line 464.
-(pdftex.def)             Requested size: 345.0pt x 344.9843pt.
+ <./SigmaGamma/EigenValuesLogSigmaGamma.pdf>] [20 <./SigmaGamma/EigenValuesLinSigmaGamma.pdf>]
+<DeltaGamma/10SpeciesFP.pdf, id=1789, 1445.4pt x 1445.4pt>
+File: DeltaGamma/10SpeciesFP.pdf Graphic file (type pdf)
+<use DeltaGamma/10SpeciesFP.pdf>
+Package pdftex.def Info: DeltaGamma/10SpeciesFP.pdf  used on input line 556.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
  [21
 
- <./DeltaGamma/EigenvalueSpectraLog.pdf>]
-<Bifurcation/BifurcationMeanGamma.png, id=4616, 462.528pt x 346.896pt>
-File: Bifurcation/BifurcationMeanGamma.png Graphic file (type png)
-<use Bifurcation/BifurcationMeanGamma.png>
-Package pdftex.def Info: Bifurcation/BifurcationMeanGamma.png  used on input line 477.
-(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<Bifurcation/BifurcationM1.png, id=4617, 462.528pt x 346.896pt>
-File: Bifurcation/BifurcationM1.png Graphic file (type png)
-<use Bifurcation/BifurcationM1.png>
-Package pdftex.def Info: Bifurcation/BifurcationM1.png  used on input line 483.
-(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ <./DeltaGamma/10SpeciesFP.pdf>]
+<DeltaGamma/10SpeciesFPLinear.pdf, id=2242, 1445.4pt x 1445.4pt>
+File: DeltaGamma/10SpeciesFPLinear.pdf Graphic file (type pdf)
+<use DeltaGamma/10SpeciesFPLinear.pdf>
+Package pdftex.def Info: DeltaGamma/10SpeciesFPLinear.pdf  used on input line 564.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
  [22
 
- <./Bifurcation/BifurcationMeanGamma.png>] [23 <./Bifurcation/BifurcationM1.png>]
-<Bifurcation/BifurcationMeanDelta.png, id=4626, 462.528pt x 346.896pt>
-File: Bifurcation/BifurcationMeanDelta.png Graphic file (type png)
-<use Bifurcation/BifurcationMeanDelta.png>
-Package pdftex.def Info: Bifurcation/BifurcationMeanDelta.png  used on input line 492.
-(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
-<Bifurcation/BifurcationM1Delta.png, id=4627, 462.528pt x 346.896pt>
-File: Bifurcation/BifurcationM1Delta.png Graphic file (type png)
-<use Bifurcation/BifurcationM1Delta.png>
-Package pdftex.def Info: Bifurcation/BifurcationM1Delta.png  used on input line 498.
-(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+ <./DeltaGamma/10SpeciesFPLinear.pdf>]
+<DeltaGamma/10autotoxFP.pdf, id=2695, 1445.4pt x 1445.4pt>
+File: DeltaGamma/10autotoxFP.pdf Graphic file (type pdf)
+<use DeltaGamma/10autotoxFP.pdf>
+Package pdftex.def Info: DeltaGamma/10autotoxFP.pdf  used on input line 572.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
+ [23
+
+ <./DeltaGamma/10autotoxFP.pdf>]
+<DeltaGamma/10AutotoxFPLinear.pdf, id=3151, 1445.4pt x 1445.4pt>
+File: DeltaGamma/10AutotoxFPLinear.pdf Graphic file (type pdf)
+<use DeltaGamma/10AutotoxFPLinear.pdf>
+Package pdftex.def Info: DeltaGamma/10AutotoxFPLinear.pdf  used on input line 580.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
  [24
 
- <./Bifurcation/BifurcationMeanDelta.png>] [25 <./Bifurcation/BifurcationM1Delta.png>] (Autotoxicity model notes.aux)
+ <./DeltaGamma/10AutotoxFPLinear.pdf>]
+<DeltaGamma/EigenValuesDeltaGammaLog.pdf, id=3607, 1445.4pt x 1445.4pt>
+File: DeltaGamma/EigenValuesDeltaGammaLog.pdf Graphic file (type pdf)
+<use DeltaGamma/EigenValuesDeltaGammaLog.pdf>
+Package pdftex.def Info: DeltaGamma/EigenValuesDeltaGammaLog.pdf  used on input line 591.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
+<DeltaGamma/EigenValuesDeltaGammaLin.pdf, id=3608, 1445.4pt x 1445.4pt>
+File: DeltaGamma/EigenValuesDeltaGammaLin.pdf Graphic file (type pdf)
+<use DeltaGamma/EigenValuesDeltaGammaLin.pdf>
+Package pdftex.def Info: DeltaGamma/EigenValuesDeltaGammaLin.pdf  used on input line 598.
+(pdftex.def)             Requested size: 418.25555pt x 418.251pt.
+ [25
+
+ <./DeltaGamma/EigenValuesDeltaGammaLog.pdf>] [26 <./DeltaGamma/EigenValuesDeltaGammaLin.pdf>]
+<Bifurcation/BifurcationMeanGamma.png, id=3908, 462.528pt x 346.896pt>
+File: Bifurcation/BifurcationMeanGamma.png Graphic file (type png)
+<use Bifurcation/BifurcationMeanGamma.png>
+Package pdftex.def Info: Bifurcation/BifurcationMeanGamma.png  used on input line 609.
+(pdftex.def)             Requested size: 418.25555pt x 313.70677pt.
+<Bifurcation/BifurcationM1.png, id=3909, 462.528pt x 346.896pt>
+File: Bifurcation/BifurcationM1.png Graphic file (type png)
+<use Bifurcation/BifurcationM1.png>
+Package pdftex.def Info: Bifurcation/BifurcationM1.png  used on input line 615.
+(pdftex.def)             Requested size: 418.25555pt x 313.70677pt.
+ [27
+
+ <./Bifurcation/BifurcationMeanGamma.png>] [28 <./Bifurcation/BifurcationM1.png>]
+<Bifurcation/BifurcationMeanDelta.png, id=3918, 462.528pt x 346.896pt>
+File: Bifurcation/BifurcationMeanDelta.png Graphic file (type png)
+<use Bifurcation/BifurcationMeanDelta.png>
+Package pdftex.def Info: Bifurcation/BifurcationMeanDelta.png  used on input line 624.
+(pdftex.def)             Requested size: 418.25555pt x 313.70677pt.
+<Bifurcation/BifurcationM1Delta.png, id=3919, 462.528pt x 346.896pt>
+File: Bifurcation/BifurcationM1Delta.png Graphic file (type png)
+<use Bifurcation/BifurcationM1Delta.png>
+Package pdftex.def Info: Bifurcation/BifurcationM1Delta.png  used on input line 630.
+(pdftex.def)             Requested size: 418.25555pt x 313.70677pt.
+ [29
+
+ <./Bifurcation/BifurcationMeanDelta.png>] [30 <./Bifurcation/BifurcationM1Delta.png>] (Autotoxicity model notes.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 4231 strings out of 474486
- 71890 string characters out of 5743283
- 1938542 words of memory out of 5000000
- 26483 multiletter control sequences out of 15000+600000
- 573888 words of font info for 95 fonts, out of 8000000 for 9000
+ 7293 strings out of 474486
+ 149009 string characters out of 5743283
+ 1939542 words of memory out of 5000000
+ 29517 multiletter control sequences out of 15000+600000
+ 574576 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,65p,701b,317s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\spigno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Autotoxicity model notes.pdf" (25 pages, 10125787 bytes).
+ 108i,11n,107p,11039b,346s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\spigno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Autotoxicity model notes.pdf" (30 pages, 54728799 bytes).
 PDF statistics:
- 4715 PDF objects out of 5155 (max. 8388607)
+ 3994 PDF objects out of 4296 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
