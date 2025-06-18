@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1749632863.24939 "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex" "Autotoxicity model notes.pdf" "Autotoxicity model notes" 1749632883.44525 2
-  "Autotoxicity model notes.aux" 1749632882 8685 eafdb92314a9233535fdabd45506e426 "pdflatex"
-  "Autotoxicity model notes.tex" 1749632839 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
+["pdflatex"] 1749803322.16058 "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex" "Autotoxicity model notes.pdf" "Autotoxicity model notes" 1749803349.32746 2
+  "Autotoxicity model notes.aux" 1749803348 8685 eafdb92314a9233535fdabd45506e426 "pdflatex"
+  "Autotoxicity model notes.tex" 1749803317 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
   "Bifurcation/BifurcationM1.png" 1745920071 444632 82091ef00bed6b7b24d4e97efd622063 ""
   "Bifurcation/BifurcationM1Delta.png" 1745941515 174391 ec709bb3f24dca87c588b65116863ab2 ""
   "Bifurcation/BifurcationMeanDelta.png" 1745941784 234953 f431f5d19c4e2554aae1c3c47a5ca409 ""
@@ -116,7 +116,7 @@
   "SingleSpecies/TwoSpecies3Cases.png" 1748007939 879072 b3afda8a001bd35f4fc289fcacde207b ""
   "SingleSpecies/time_series_single_species.png" 1746706997 287070 076408af49a414642083a76ea9019341 ""
   "SingleSpecies/twospeciesModel0.png" 1749042506 61284 acf4a3396ef560f879c882ec70dcc60b ""
-  "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex" 1749632839 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
+  "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxicity model notes.tex" 1749803317 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
   (generated)
   "Autotoxicity model notes.aux"
   "Autotoxicity model notes.log"
