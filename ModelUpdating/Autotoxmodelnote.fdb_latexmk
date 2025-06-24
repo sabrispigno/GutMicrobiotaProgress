@@ -1,12 +1,12 @@
 # Fdb version 4
-["pdflatex"] 1750168784.46036 "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxmodelnote.tex" "Autotoxmodelnote.pdf" "Autotoxmodelnote" 1750168805.52119 2
-  "Autotoxmodelnote.aux" 1750168804 8685 17244889bccf9e47942d27b08680a894 "pdflatex"
-  "Autotoxmodelnote.tex" 1749803317 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
+["pdflatex"] 1750681098.65224 "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxmodelnote.tex" "Autotoxmodelnote.pdf" "Autotoxmodelnote" 1750681106.36056 2
+  "Autotoxmodelnote.aux" 1750681106 8685 17244889bccf9e47942d27b08680a894 "pdflatex"
+  "Autotoxmodelnote.tex" 1750168898 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
   "Bifurcation/BifurcationM1.png" 1745920071 444632 82091ef00bed6b7b24d4e97efd622063 ""
   "Bifurcation/BifurcationM1Delta.png" 1745941515 174391 ec709bb3f24dca87c588b65116863ab2 ""
   "Bifurcation/BifurcationMeanDelta.png" 1745941784 234953 f431f5d19c4e2554aae1c3c47a5ca409 ""
   "Bifurcation/BifurcationMeanGamma.png" 1745941050 221452 891f7a7d097891fd249472a614dea17a ""
-  "C:/Users/spigno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750168138 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "C:/Users/spigno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1750679823 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/spigno/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1748967715 12668 2c7889fb301ccbae59826d7821a6f00a ""
   "C:/Users/spigno/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1747914177 24225518 1397483f609e2e13417ddad97a35a0f1 ""
   "C:/Users/spigno/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1095.tfm" 993062508 1460 8005ce585ff351dff78998923504da5e ""
@@ -118,7 +118,7 @@
   "SingleSpecies/TwoSpecies3Cases.png" 0 -1 0 ""
   "SingleSpecies/time_series_single_species.png" 0 -1 0 ""
   "SingleSpecies/twospeciesModel0.png" 0 -1 0 ""
-  "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxmodelnote.tex" 1749803317 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
+  "c:/Users/spigno/Documents/GitHub/GutMicrobiotaProgress/ModelUpdating/Autotoxmodelnote.tex" 1750168898 23409 48404ca506c9d2dd95ebe9ed83e845ec ""
   (generated)
   "Autotoxmodelnote.aux"
   "Autotoxmodelnote.log"
